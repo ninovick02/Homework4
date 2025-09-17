@@ -26,7 +26,7 @@ editor_options:
 
 -   Rewrite the following nested function call using **BaseR**'s chaining operator:
 
-```{r}
+```
 arrange(filter(select(as_tibble(iris), starts_with("Petal"), Species), Petal.Length < 1.55), Species)
 ```
 

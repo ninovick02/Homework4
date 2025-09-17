@@ -17,7 +17,7 @@ library(tidyverse)
 
 Import data from project directory
 ```{r}
-white_wine_tbl <- read_excel("../white-wine.xlsx", sheet = "white-wine")
+white_wine_tbl <- readxl::read_excel("../white-wine.xlsx", sheet = "white-wine")
 
 white_wine_tbl
 ```
