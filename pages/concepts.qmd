@@ -6,5 +6,32 @@ editor_options:
   chunk_output_type: inline
 ---
 
+## Task 1: Conceptual Questions
 
-Answers go here!
+-   If your working directory is **myfolder/homework/**, what *relative* path would you specify to get the file located at **myfolder/MyData.csv**?
+
+> ../MyData.csv
+
+-   What are the major benefits of using R projects?
+
+> R projects keep all of the files related to a specific project organized in a centralized folder/working directory. It also automatically sets the current folder as the working directory
+
+-   What is git and what is github?
+
+> Git is a version control system for your code. It keeps track of all the changes that are made and allows you to (somewhat) freely revert to different versions if something breaks. Git also allows for collaboration with others, allowing others to branch, code, merge, and push to the same project. Github allows you access to git online. It has features that streamline the process of coding with git.
+
+-   What are the two main differences between a **tibble** and a **data.frame**?
+
+> Tibble is a special type of dataframe made specifically for the tidyverse. Is is designed specifically for large data frames, so when printing, it defauts to printing only the first few rows and columns. "Tibbles are data.frames that are lazy and surly"
+
+-   Rewrite the following nested function call using **BaseR**'s chaining operator:
+
+```{r}
+arrange(filter(select(as_tibble(iris), starts_with("Petal"), Species), Petal.Length < 1.55), Species)
+```
+
+> iris |>  
+    as_tibble() |> 
+    select(starts_with("Petal"), Species) |>
+    filter(Petal.Length < 1.55) |>
+    arrange(Species)
