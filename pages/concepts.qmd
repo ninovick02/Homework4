@@ -14,15 +14,15 @@ editor_options:
 
 -   What are the major benefits of using R projects?
 
-> R projects keep all of the files related to a specific project organized in a centralized folder/working directory. It also automatically sets the current folder as the working directory
+> R projects keep all of the files related to a specific project organized in a centralized folder/working directory. Additionally, it automatically creates most of the necessary documents and folders (especially if you are cloning a git repository). R projects also sets the working directory when you open a document inside the project
 
 -   What is git and what is github?
 
-> Git is a version control system for your code. It keeps track of all the changes that are made and allows you to (somewhat) freely revert to different versions if something breaks. Git also allows for collaboration with others, allowing others to branch, code, merge, and push to the same project. Github allows you access to git online. It has features that streamline the process of coding with git.
+> GitHub is a server for git. Github is one of the most popular online hosting sites for git. It also has features that allows you to collaborate with others. Git is a version control software. That is, it remembers past versions of your code at each commit and allows you to revert back to them. You can also create branches that allow you to work on a project without messing up the code that can merge back to the main branch.
 
 -   What are the two main differences between a **tibble** and a **data.frame**?
 
-> Tibble is a special type of dataframe made specifically for the tidyverse. Is is designed specifically for large data frames, so when printing, it defauts to printing only the first few rows and columns. "Tibbles are data.frames that are lazy and surly"
+> Tibble is a special type of dataframe made specifically for the tidyverse. "Tibbles are data.frames that are lazy and surly". They defaut to printing only the first few rows and columns. They are also stricter, making you write better, cleaner code.
 
 -   Rewrite the following nested function call using **BaseR**'s chaining operator:
 
