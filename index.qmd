@@ -7,5 +7,58 @@ editor_options:
 ---
 
 An example pages site with multiple pages and a table of contents.
-
 This could be a landing page for the site. Feel free to put whatever here!
+
+
+## Description of project
+Practice loading in data, using piping, and tidyverse to manipulate data.
+
+# Website contents
+
+## Page 0
+
+You are here!!
+
+## Page 1
+
+### Conceptual Questions
+
+Practice for midterm 1.
+
+- Relative pathing
+
+- R project benefits
+
+- Git and GitHub
+
+- Tibble vs Dataframe
+
+- Piping practice
+
+## Page 2
+
+### Reading Delimited Data
+
+Using tidyverse functions to read in and manipulate data
+
+#### Comma Delimited
+
+Glass Data
+
+#### Fixed Width
+
+Yeast Data
+
+## Page 3
+
+### Combining Excel and Delimited Data
+
+#### Excel Spreadsheet
+
+White Wine
+
+#### Semicolon Delimited
+
+Red Wine
+
+#### Combine and Manipulate
